@@ -4,7 +4,6 @@ function upDate(previewPic) {
     var pic = previewPic.src;
     document.getElementById('image').innerHTML = previewPic.alt;
     document.getElementById('image').style.backgroundImage = "url(" + pic + ")";
-    // document.getElementById('image').setAttribute("image","background-image:url('previewPic.src')");
     /* In this function you should 
        1) change the url for the background image of the div with the id = "image" 
        to the source file of the preview image
